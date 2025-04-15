@@ -14,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <title>Revision checker</title>
+      </head>
       <body>{children}</body>
     </html>
   )
